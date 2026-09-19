@@ -1,0 +1,24 @@
+# ============================================================
+# .gitignore — MessMeter Project
+# ============================================================
+
+# DB connection config (contains credentials — DO NOT push)
+config.php
+
+# PHP error/debug logs
+*.log
+php_errors.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# XAMPP local cache
+/tmp/
